@@ -1,0 +1,33 @@
+body{
+background-color: #ecee83;
+}
+.principal {
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.coluna1, .coluna2, .coluna3{
+align-items: center;
+margin: 1%;
+}
+.coluna1{
+flex-grow: 1;
+}
+.coluna2{
+flex-grow: 1;
+}
+.coluna3{
+flex-grow: 1;
+}
+img{
+width: 100%;
+margin: 1.5%;
+}
+h1{
+text-align:center;
+color: rgb(6, 135, 209);
+font-size: 4.5em;
+}
+a:link, a:visited{
+color: #fff;
+}
